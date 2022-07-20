@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.addscore-wrapper {
+  float: right;
+  width: 45%;
+}
+
+.addscore-list {
+  list-style: none;
+}
+
+.addscore-list li {
+  margin: 10px 0;
+}
+
+.scoreboard-wrapper {
+  float: left;
+  width: 45%;
+}
+
+.scoreboard {
+  border: 2px solid #000;
+  list-style: none;
+  min-height: 200px;
+}
+
+.scoreboard li {
+  padding: 5px;
+}
+
+.scoreboard li:nth-child(odd) {
+  background-color: bisque;
+}
+
+.scoreboard-title {
+  margin-bottom: 10px;
+}
+
+.scoreboard-title h2 {
+  margin-right: 10px;
+  float: left;
+}
+
+.name {
+  margin-right: 5px;
+  float: left;
+}
