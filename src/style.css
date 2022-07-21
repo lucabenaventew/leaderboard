@@ -35,7 +35,7 @@ main {
   border: none;
   padding: 5px;
   box-shadow: inset 0 0 7px 0 #000;
-  background-color: #d6ad60;
+  background-color: #8a6216;
 }
 
 .addscore-list li input::placeholder {
@@ -67,7 +67,7 @@ main {
   box-shadow: 0 0 10px 0 #000;
   list-style: none;
   min-height: 200px;
-  background-color: #d6ad60;
+  background-color: #8a6216;
 }
 
 .scoreboard li {
@@ -75,11 +75,11 @@ main {
 }
 
 .scoreboard li:nth-child(odd) {
-  background-color: #d6ad60;
+  background-color: #8a6216;
 }
 
 .scoreboard li:nth-child(even) {
-  background-color: #d6ad60;
+  background-color: #8a6216;
 }
 
 .scoreboard-title {
